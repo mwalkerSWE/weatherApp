@@ -1,35 +1,7 @@
 # weatherApp
 
-This template should help get you started developing with Vue 3 in Vite.
+Simple app that allows selecting from 20K cities and uses the OpenWeather API to return weather for the next 24 hours.
 
-## Recommended IDE Setup
+## Limitations
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+Since I only have access to the free public API key, I could only display weather in 3 hour intervals. The hourly (https://openweathermap.org/api/hourly-forecast) and daily (https://openweathermap.org/forecast16) forecast endpoints are not accessible on the free level.
